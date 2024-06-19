@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pinewood.DMS.API", "Pinewood.DMS.API\Pinewood.DMS.API.csproj", "{F44CFE12-525B-43DE-A8DD-6F38838EDF15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4279D1C-89CA-4D05-9E94-1CACBAA19599} = {F4279D1C-89CA-4D05-9E94-1CACBAA19599}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pinewood.DMS.UI", "Pinewood.DMS.UI\", "{F4279D1C-89CA-4D05-9E94-1CACBAA19599}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60869"
+		Debug.AspNetCompiler.PhysicalPath = "Pinewood.DMS.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60869\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60869"
+		Release.AspNetCompiler.PhysicalPath = "Pinewood.DMS.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60869\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60869"
+		SlnRelativePath = "Pinewood.DMS.UI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44CFE12-525B-43DE-A8DD-6F38838EDF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44CFE12-525B-43DE-A8DD-6F38838EDF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44CFE12-525B-43DE-A8DD-6F38838EDF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44CFE12-525B-43DE-A8DD-6F38838EDF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4279D1C-89CA-4D05-9E94-1CACBAA19599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4279D1C-89CA-4D05-9E94-1CACBAA19599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4279D1C-89CA-4D05-9E94-1CACBAA19599}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4279D1C-89CA-4D05-9E94-1CACBAA19599}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDF28957-87D8-4097-8628-F8176F2B98D0}
+	EndGlobalSection
+EndGlobal

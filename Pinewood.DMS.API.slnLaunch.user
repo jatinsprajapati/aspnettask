@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Pinewood.DMS.API\\Pinewood.DMS.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "Pinewood.DMS.UI\\",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  }
+]
